@@ -53,12 +53,3 @@ while True:
             print("Error: ", str(e))
             print("Cannot fetch URL from this tab.")
     time.sleep(2)
-
-# from clicknium import clicknium as cc
-
-# if not cc.edge.extension.is_installed():
-#     cc.edge.extension.install_or_update()
-
-# for browser in cc.edge.browsers:
-#     for tab in browser.tabs:
-#         print(tab.url)
